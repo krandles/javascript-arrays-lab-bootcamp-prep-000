@@ -1,6 +1,7 @@
 const app = "I don't do much."
 
 function destructivelyAppendKitten(name) {
+<<<<<<< HEAD
   kittens.push(name)
 }
 
@@ -34,4 +35,7 @@ function removeLastKitten() {
 function removeFirstKitten() {
   const newarray = kittens.slice(1)
   return newarray
+=======
+    kittens.push(name)
+>>>>>>> 13cad3a79aa52730fc94e3982c71401a580c1f25
 }
